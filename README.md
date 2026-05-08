@@ -28,7 +28,7 @@ A multiuser Kanban application for managing daily tasks.
 
 
 ## DB Schema Design
-
+```
 +----------------------+        1          many        +----------------------+        1          many        +----------------------+
 |        User          |------------------------------>|        List          |------------------------------>|        Card          |
 +----------------------+                               +----------------------+                               +----------------------+
@@ -38,6 +38,6 @@ A multiuser Kanban application for managing daily tasks.
 | password : string    |                               |   → User.userid      |                               +----------------------+
 | active : boolean     |                               +----------------------+
 +----------------------+
-
+```
 
 
