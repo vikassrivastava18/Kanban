@@ -1,4 +1,4 @@
-# Kanban-vue-flask
+# Kanban (Flask + Vue)
 A multiuser Kanban application for managing daily tasks.
 
 ## Summary
